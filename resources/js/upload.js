@@ -17,7 +17,7 @@ $('.addBtn').on('click',function () {
                let MyFile= $(this).prop('files');
                let MyFileSize=((MyFile[0].size)/(1024*1024)).toFixed(2);
                $(this).closest('tr').find('.fileSize').html(MyFileSize+ "MB")
-         })
+         });
 
 
          $('.upBtn').on('click',function (event) {
